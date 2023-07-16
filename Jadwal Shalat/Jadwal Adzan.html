@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muslim Center - Jadwal Adzan</title>
+
+    <link rel="stylesheet" href="/Beranda/Home.css">
+    <link rel="stylesheet" href="Jadwal Adzan.css">
+
+    <link rel="shortcut icon" href="/Images/logo.jpg" type="image/x-icon" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="/Beranda/Home.html">
+                <img src="/Images/logo-removebg-preview.png" />
+            </a>
+        </div>
+
+        <ul>
+            <li><a href="/Beranda/Home.html">Beranda</a></li>
+            <li><a href="/Video/Video.html">Video</a></li>
+            <li><a href="/Al - Qur'an/Al - Qur'an.html">Al - Qur'an</a></li>
+            <li><a href="Jadwal Adzan.html">Jadwal Adzan</a></li>
+        </ul>
+
+        <div class="toggle">
+            <input type="checkbox" />
+
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <main>
+        <table cellpadding="1">
+            <thead>
+                <th></th>
+                <th id="daerah-kota" colspan="6"></th>
+                <th></th>
+            </thead>
+
+            <thead>
+                <th></th>
+                <th></th>
+
+                <th colspan="4" id="bulan-tahun"></th>
+
+                <th></th>
+                <th></th>
+            </thead>
+
+            <thead id="tabel-pilihan">
+                <th colspan="2">
+                    <button id="sebelumnya">Sebelumnya</button>
+                </th>
+
+                <th colspan="4" id="pilih">
+                    Pilih Daerah
+                    <select id="id-kota"></select>
+                </th>
+
+                <th colspan="2">
+                    <button id="selanjutnya">Selanjutnya</button>
+                </th>
+            </thead>
+
+            <thead>
+                <th>Hari/Tanggal</th>
+                <th>Imsak</th>
+                <th>Subuh</th>
+                <th>Dhuha</th>
+                <th>Dzuhur</th>
+                <th>Ashar</th>
+                <th>Maghrib</th>
+                <th>Isya</th>
+            </thead>
+
+            <tbody id="waktu-sholat2"></tbody>
+        </table>
+    </main>
+
+    <footer>
+        <div class="footer-title">
+            <a href="/Beranda/Home.html">
+                <img src="/Images/logo-removebg-preview.png" />
+            </a>
+        </div>
+
+        <span class="copyright">
+            © 2022 Muslim Center | Dede Adam Alamsyah
+        </span>
+    </footer>
+
+    <script src="Jadwal Adzan.js"></script>
+    <script src="/Beranda/Home.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+main {
+    padding: 5%;
+}
+
+table {
+    border: 5px solid #03264c;
+    border-collapse: collapse;
+    width: auto;
+}
+
+table>thead {
+    line-height: 30px;
+    background-color: #03264c;
+    color: white;
+    border: 3px solid;
+}
+
+table>th,
+td {
+    border: 3px solid #03264c;
+    background-color: white;
+    color: black;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+#tabel-pilihan {
+    background-color: #03264c;
+    color: white;
+}
+
+
+button {
+    color: black;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#sebelumnya {
+    margin-left: -50px;
+}
+
+.tanggal {
+    text-align: right;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.855);
+}
+
+
+#id-kota {
+    font-weight: bold;
+}
+
+table {
+    text-align: center;
+}
+
+
+@media (max-width: 690px) {
+    main {
+        overflow-x: auto;
+    }
+}
